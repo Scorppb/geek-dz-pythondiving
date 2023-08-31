@@ -15,7 +15,7 @@ def gcd(a, b):
     return gcd 
 
 
-def summa(string1, string2):
+def summation(string1, string2):
     a1, b1 = str(string1).split(sep="/")
     a2, b2 = str(string2).split(sep="/")
     a = int(a1)*int(b2) + int(a2)* int(b1)
@@ -31,7 +31,7 @@ def summa(string1, string2):
         return f"{a/divider:.0f}/{b/divider:.0f}"
 
 
-def multiply(string, string2):
+def multiplication(string, string2):
     a1, b1 = str(string1).split(sep="/")
     a2, b2 = str(string2).split(sep="/")
     a = int(a1)*int(a2)
@@ -49,7 +49,7 @@ def multiply(string, string2):
 string1 = input("Введите дробь вида а/b: ")
 string2 = input("Введите дробь вида c/d: ")
 
-print(f"Сумма дробей {string1} и {string2} равна {summa(string1, string2)}")
+print(f"Сумма дробей {string1} и {string2} равна {summation(string1, string2)}")
 print(f"Проверка {Fraction(string1) + Fraction(string2)}")
-print(f"Произведение дробей {string1} и {string2} равно {multiply(string1, string2)}")
+print(f"Произведение дробей {string1} и {string2} равно {multiplication(string1, string2)}")
 print(f"Проверка {Fraction(string1) * Fraction(string2)}")

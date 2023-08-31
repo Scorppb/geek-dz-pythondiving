@@ -37,5 +37,5 @@ def to_hex(number):
 
 
 number = input_numbers('Введите целое число> ')
-print(f"Шестнадцатеричное значение целого {number } равно {to_hex(number)}")
+print(f"Шестнадцатеричное значение целого {number} равно {to_hex(number)}")
 print(f"Проверка {hex(number)}")
