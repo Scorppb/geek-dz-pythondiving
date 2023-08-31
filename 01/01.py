@@ -26,7 +26,7 @@ def check_triangle(a, b, c):
         return 'Треугольник не существует.'
 
 
-a = input_numbers('Введите сторону треугольника а: ')
+a
 b = input_numbers('Введите сторону треугольника b: ')
 c = input_numbers('Введите сторону треугольника c: ')
 
